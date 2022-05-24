@@ -1,0 +1,16 @@
+.header{
+    min-height: 100px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3f3e3e;
+    position: relative;
+}
+
+.search-bar{
+    position: absolute;
+    top: 25px;
+    right: -70px;
+}

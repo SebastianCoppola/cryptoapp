@@ -1,0 +1,30 @@
+.coin-detail{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.div-left{
+    width: 40%;
+    text-align: center;
+}
+.div-left img{
+    width: 25%;
+    margin-top: 50px;
+}
+.div-left h2{
+    margin-top: 40px;
+}
+.div-left-links{
+    margin-top:20px;
+    text-align: center;
+}
+.detail-icon{
+    margin: 0 10px;
+    color: rgb(71, 69, 69);
+}
+.div-right{
+    width: 60%;
+    margin-bottom: 60px;
+
+}
