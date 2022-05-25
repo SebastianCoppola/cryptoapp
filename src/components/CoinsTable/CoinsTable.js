@@ -22,20 +22,7 @@ export default function BasicTable() {
                 setLoading(false);
             })
         },[])
-    
-    useEffect( ()=>{
-        if(loading == false){
-            const price = document.querySelectorAll(".price");
-            const priceArray = [...price].map( p => {
-                if(p.innerHTML > 0){
-                    p.style.color = "red";
-                }else if(p.innerHTML < 0){
-                    p.style.color = "green";
-                }
-            })
-        }
-    },[loading])
-    
+
     return (
         <>    
             {
