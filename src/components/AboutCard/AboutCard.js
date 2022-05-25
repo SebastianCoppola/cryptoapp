@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import Img from '../../img/seba.jpg';
 import './AboutCard.css';
 
-export default function ImgMediaCard() {
+export default function AboutCard() {
     return (
         <Card sx={{ maxWidth: 345 }} className="about-card">
             <CardMedia component="img" height="170" image={Img} />

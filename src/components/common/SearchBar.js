@@ -4,7 +4,7 @@ import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 import { useNavigate } from 'react-router-dom';
 
-export default function FreeSoloCreateOption() {
+export default function SearchBar() {
     const [ value, setValue ] = useState(null);
     const [ coinsName, setCoinsName ] = useState([]);
     const submitRef = useRef();

@@ -11,7 +11,7 @@ import { IconButton } from '@mui/material';
 import LanguageIcon from '@mui/icons-material/Language';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import AddIcon from '@mui/icons-material/Add';
-import Boton from '../common/Boton';
+import BotonLink from '../common/BotonLink';
 
 const CoinDetailTable = ({data}) => {
     return (
@@ -41,7 +41,6 @@ const CoinDetailTable = ({data}) => {
                 <TableContainer component={Paper}>
                     <Table sx={{ minWidth: 400 }}>
                         <TableBody>
-
                             <TableRow>
                                 <TableCell align="right">Symbol:</TableCell>
                                 <TableCell align="left">{data.symbol}</TableCell>
@@ -78,7 +77,7 @@ const CoinDetailTable = ({data}) => {
                     </Table>
                 </TableContainer>
             </div>
-            <Boton link='/coins' value='Go Back to Currencys' />
+            <BotonLink link='/coins' value='Go Back to Currencys' variant="contained" color="success"/>
         </div>
     )
 }

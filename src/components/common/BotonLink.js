@@ -3,15 +3,15 @@ import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 
-const Boton = ({link,value}) => {
+const BotonLink = ({link,value,variant,color}) => {
 
     return (
         <Link to={link} className="link">
-            <Button variant="contained" color="success">
+            <Button variant={variant} color={color}>
                 {value}
             </Button>
         </Link>
     )
 }
 
-export default Boton;
+export default BotonLink;
