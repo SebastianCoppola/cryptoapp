@@ -11,7 +11,7 @@ import Coins from './views/Coins/Coins';
 import About from './views/About/About';
 import Contact from './views/Contact/Contact';
 import NotFound from './components/common/NotFound';
-import CoinDetail from './views/CoinDetail/CoinDetail';
+import CoinDetail from './components/CoinDetail/CoinDetail';
 
 function App() {
   return (

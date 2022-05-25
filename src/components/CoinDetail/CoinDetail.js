@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {useParams} from 'react-router';
-import CoinDetailTable from '../../components/CoinDetailTable/CoinDetailTable'
-import Placeholder from '../../components/common/Placeholder';
+import CoinDetailTable from '../CoinDetailTable/CoinDetailTable'
+import Placeholder from '../common/Placeholder';
 
 const CoinDetail = () => {
     const [coin, setCoin] = useState([]);

@@ -2,7 +2,7 @@ import React from 'react'
 import AddIcon from '@mui/icons-material/Add';
 import { Link } from 'react-router-dom';
 import { IconButton } from '@mui/material';
-import CoinDetail from '../../views/CoinDetail/CoinDetail';
+import CoinDetail from '../../components/CoinDetail/CoinDetail';
 
 const iconStyle = {
     color: '#fff',
