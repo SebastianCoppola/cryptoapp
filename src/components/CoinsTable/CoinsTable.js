@@ -3,9 +3,9 @@ import {useState, useEffect} from 'react';
 import Table from '@mui/material/Table';
 import TableContainer from '@mui/material/TableContainer';
 import Paper from '@mui/material/Paper';
-import Placeholder from '../common/Placeholder';
 import CustomTableHead from '../common/CustomTableHead.js'
 import CustomTableBody from '../common/CustomTableBody.js'
+import Skeleton from '../common/Skeleton.js';
 
 
 export default function BasicTable() {
@@ -28,7 +28,7 @@ export default function BasicTable() {
             {
                 loading
                 ?
-                <Placeholder />
+                <Skeleton />
                 :
                 <TableContainer component={Paper} className="coins-table">
                     <Table sx={{ minWidth: 650 }} aria-label="simple table">

@@ -10,5 +10,11 @@ const BotonEvent = ({variant,color,value,handleClick}) => {
         </Button>
     )
 }
+BotonEvent.defaultProps = {
+    variant: "outlined",
+    color: "primary",
+    value: "Button Event",
+    handleClick: () => console.log('Disabled Function')
+}
 
 export default BotonEvent;

@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import {useParams} from 'react-router';
 import CoinDetailTable from '../CoinDetailTable/CoinDetailTable'
-import Placeholder from '../common/Placeholder';
+import Skeleton from '../common/Skeleton.js';
+
 
 const CoinDetail = () => {
     const [coin, setCoin] = useState([]);
@@ -23,7 +24,7 @@ const CoinDetail = () => {
             {
                 loading
                 ?
-                <Placeholder />
+                <Skeleton />
                 :
                 <CoinDetailTable data={coin[0]} />
             }

@@ -14,4 +14,11 @@ const BotonLink = ({link,value,variant,color}) => {
     )
 }
 
+BotonLink.defaultProps = {
+    variant: "outlined",
+    color: "primary",
+    value: "Button Link",
+    link: "/"
+}
+
 export default BotonLink;
